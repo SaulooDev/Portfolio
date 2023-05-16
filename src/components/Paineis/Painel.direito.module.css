@@ -1,0 +1,137 @@
+*{
+    margin: 0 auto;
+}
+
+
+
+.paineld{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 519px;
+    
+
+    background: #272932;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .foto{
+        position: relative;
+        width: 441px;
+        height: 441px;
+        left: -205px;
+        top: 240px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    }
+
+.web{
+position: absolute;
+width: 433px;
+height: 52px;
+left: 500px;
+top: 201px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+
+}
+
+.name{
+    position: absolute;
+    width: 433px;
+    height: 52px;
+    left: 500px;
+    top: 246px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+.desc{
+    position: absolute;
+    width: 421px;
+    height: 272px;
+    left: 500px;
+    top: 372px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+
+   
+
+    color: #FFFFFF;
+}
+
+.habilidades{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 215px;
+    height: 57px;
+    left: 500px;
+    top: 661px;
+
+    background-color: #272932;
+    border: 2px solid #2898BE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    transition: transform 0.3s ease;
+ 
+
+
+    color: #2898BE;
+    }
+
+    .habilidades:hover{
+        transform: scale(1.1); 
+    }
+
+.projetos{
+
+    position: absolute;
+    width: 215px;
+    height: 57px;
+    left: 790px;
+    top: 661px;
+
+    background: #114B5F;
+    
+    border-radius: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    transition: transform 0.3s ease; 
+
+    color: #FFFFFF;
+
+}
+
+.projetos:hover{
+    transform: scale(1.1);
+}

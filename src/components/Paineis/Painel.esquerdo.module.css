@@ -1,0 +1,192 @@
+*{
+    margin: 0 auto;
+}
+
+.painel{
+    position: absolute;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #114B5F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+
+    
+    width: 433px;
+    height: 52px;
+    padding: 20px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+.simbolo{
+    position: absolute;
+    width: 168px;
+    height: 24px;
+    left: 12px;
+    top: 240px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 24px;
+    
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hastag1{
+    position: absolute;
+    width: 226px;
+    height: 24px;
+    left: 13px;
+    top: 405px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    transition: transform 0.3s ease;
+
+/* */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.htg2{
+    position: absolute;
+    width: 131px;
+    height: 24px;
+    left: 13px;
+    top: 480px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    transition: transform 0.3s ease;
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.htg3{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 12px;
+    top: 560px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    transition: transform 0.3s ease;
+
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.git{
+
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 27px;
+    top: 800px;
+    transition: transform 0.3s ease;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.linkedin{
+position: absolute;
+width: 83px;
+height: 83px;
+left: 138px;
+top: 800px;
+transition: transform 0.3s ease;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.insta{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 250px;
+    top: 800px;
+    transition: transform 0.3s ease;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gmail{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 371px;
+    top: 800px;
+    transition: transform 0.3s ease;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.git:hover{
+    transform: scale(1.1);
+}
+
+.linkedin:hover{
+    transform: scale(1.1);
+}
+
+.insta:hover{
+    transform: scale(1.1);
+}
+
+.gmail:hover{
+    transform: scale(1.1);
+}
+
+.hastag1:hover{
+    transform: scale(1.1); 
+}
+
+.htg2:hover{
+    transform: scale(1.1);
+}
+
+.htg3:hover{
+    transform: scale(1.1);
+}
+

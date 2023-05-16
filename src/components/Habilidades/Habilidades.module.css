@@ -1,0 +1,503 @@
+.contorno{
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 1248px;
+    height: 867px;
+    top: 1170px;
+    border: 2px solid #2898BE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-direction: column;
+    left: 300px;
+    
+
+    border-radius: 5px;
+
+    
+    
+    }
+
+
+.skill_title{
+    
+    
+position: absolute;
+width: 246px;
+height: 17px;
+left: 560px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 24px;
+
+
+color: #2898BE;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.bloco1{
+    position: absolute;
+    width: 384px;
+    height: 325px;
+    left: 35px;
+    flex-direction: column;
+    top: 110px;
+
+    background: #184656;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    transition: transform 0.3s ease;
+
+    border-radius: 15px;
+}
+
+.bloco1:hover{
+    transform: scale(1.1);
+}
+
+.linguagens{
+    position: absolute;
+    width: 296px;
+    height: 24px;
+    left: 43px;
+    top: 13px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+    
+
+    color: #ffffff;
+}
+
+.bloco2{
+    
+position: absolute;
+width: 384px;
+height: 325px;
+left: 440px;
+top: 110px;
+
+background-color: #184656;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(2px);
+transition: transform 0.3s ease;
+
+border-radius: 15px;
+}
+
+.desing{
+    
+position: absolute;
+width: 69px;
+height: 24px;
+left: 157px;
+top: 13px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+
+
+color: #FFFFFF;
+}
+
+.bloco2:hover{
+    transform: scale(1.1);
+}
+
+.bloco3{
+    position: absolute;
+    width: 384px;
+    height: 325px;
+    left: 845px;
+    top: 110px;
+
+    background-color: #184656;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: none;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.bloco3:hover{
+    transform: scale(1.1);
+}
+
+.idioma{
+
+    position: absolute;
+    width: 69px;
+    height: 24px;
+    left: 157px;
+    top: 13px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+
+
+    color: #FFFFFF;
+    }
+
+.bloco4{
+    
+position: absolute;
+width: 1208.65px;
+height: 325px;
+left: 25.50px;
+top: 490px;
+
+background-color: #184656;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+transition: transform 0.3s ease;
+
+border-radius: 15px;
+
+}
+
+.bloco4:hover{
+    transform: scale(1.1);
+}
+
+.formacao{
+    position: absolute;
+    width: 343px;
+    height: 17px;
+    left: 455px;
+    top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+   
+    
+    
+    color: white;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+    .logo_html{
+        
+    position: relative;
+    width: 62px;
+    height: 62px;
+    float: left;
+   
+    top: 80px;
+    left: 40px;
+
+    
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .html_title{
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    left: 44px;
+    top: 145px;
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .logo_css{
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 145px;
+        top: 80px;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .css_title{
+        position: relative;
+        width: 58px;
+        height: 24px;
+        left: -8px;
+        top: 145px;
+    
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .logo_js
+    { 
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 258px;
+        top: 80px;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    }
+
+    .js_title{
+        position: absolute;
+        width: 58px;
+        height: 24px;
+        flex-direction: column;
+        left: 240px;
+        top: 145px;
+    
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    }
+
+    .logo_php{
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 40px;
+        top: 200px;
+
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .php_title{
+        position: absolute;
+
+        left: 50px;
+        top: 268px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+
+
+    color: #FFFFFF;
+    }
+
+    .logo_react{
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        left: 145.1px;
+        top: 200px;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .react_title{
+        position: absolute;
+
+        left: 146px;
+        top: 268px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .logo_mysql{
+        position: absolute;
+        width: 82px;
+        height: 82px;
+        left: 245px;
+        top: 180px;
+
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .mysql_title{
+        position: absolute;
+
+        left: 250.9px;
+        top: 268px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .logo_gimp{
+        position: relative;
+        top: 80px;
+        left: 164px;
+    }
+
+    .gimp_title{
+
+        position: relative;
+        left: 164px;
+        top: 135px;
+        position: absolute;
+       
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .logo_figma{
+
+        position: relative;
+        top: 200px;
+        left: 116px;
+    }
+
+    .figma_title{
+
+        position: relative;
+        left: 159px;
+        top: 265px;
+        position: absolute;
+       
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .icon_usa{
+        position: relative;
+        top: 80px;
+        left: 166.2px;
+    }
+
+    .usa_title{
+
+        position: relative;
+        left: 120px;
+        top: 149px;
+        position: absolute;
+       
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .icon_spain{
+        position: relative;
+        top: 200px;
+        left: 118px;
+    }
+
+    .spain_title{
+
+        position: relative;
+        left: 110px;
+        top: 270px;
+        position: absolute;
+       
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .list{
+        position: absolute;
+        width: 668px;
+        height: 50px;
+        left: 289px;
+        top: 100px;
+
+    }
+
+    .list{
+       
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 34px;
+       
+        
+        
+        color: #FFFFFF;
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
